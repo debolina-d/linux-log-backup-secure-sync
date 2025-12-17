@@ -1,0 +1,13 @@
+# Generated backups
+log_backup/
+remote_backups/
+
+# Logs
+logs/
+*.log
+
+# SSH
+.ssh/
+
+# OS files
+.DS_Store
