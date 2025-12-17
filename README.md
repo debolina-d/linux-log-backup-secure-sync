@@ -27,8 +27,8 @@ The automation is handled using `cron` with the following schedule:
 - **Backup job:** Runs daily at **2:00 AM**
 - **Sync job:** Runs daily at **2:05 AM**
 
-- 0 2 * * * /home/debolina/linux_project/scripts/backup_logs.sh
-- 5 2 * * * /home/debolina/linux_project/scripts/sync_backup.sh
+- **Cron Job script 1:**  0 2 * * * /home/debolina/linux_project/scripts/backup_logs.sh
+- **Cron Job script 2:**  5 2 * * * /home/debolina/linux_project/scripts/sync_backup.sh
 
 ## 🛠️ Technologies Used
 
