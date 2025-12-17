@@ -5,6 +5,7 @@ This project implements an automated Linux system log backup and secure synchron
 
 System logs are archived with timestamps, compressed into `.tar.gz` files, and securely synchronized to a simulated remote server.  
 The automation follows real-world DevOps practices by running scheduled jobs during low-traffic hours and maintaining execution logs for verification and debugging.
+Automated retention policy deletes backups older than 7 days to prevent disk overuse
 
 Localhost is used to simulate a remote server environment.
 
